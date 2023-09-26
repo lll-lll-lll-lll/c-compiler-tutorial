@@ -13,7 +13,8 @@ test: 1cc
 
 compile:
 	cc -o _1cc 1cc.c
+	
 clean:
-	  rm -f 1cc *.o *~ tmp*
+	  rm -f _1cc *.o *~ tmp*
 
 .PHONY: test clean
